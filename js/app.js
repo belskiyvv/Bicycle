@@ -4,7 +4,7 @@ atom.declare('App.Ctrl', {
 
     initialize: function () {
         atom.ImagePreloader.run({
-            'ball': 'images/elems.png [20:0:26:26]'
+            'ball': 'images/deer-sprite.png [0:0:260:460]'
         }, this.start.bind(this));
     },
 
